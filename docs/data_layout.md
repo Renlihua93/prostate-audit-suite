@@ -23,9 +23,9 @@ Feature archives are `.npz` files with two arrays:
 Directory names follow the encoder and cohort, for example:
 
 ```
-features/phikon/                 # PAR, Phikon-v1
+features/phikon/                 # cohort A, Phikon-v1
 features/tcga_phikon/            # TCGA-PRAD, Phikon-v1
-features/hoptimus0_par/          # PAR, H-optimus-0
+features/hoptimus0_par/          # cohort A, H-optimus-0
 features/hoptimus0_tcga/         # TCGA-PRAD, H-optimus-0
 features/sicap_phikon_c224/      # SICAPv2 patch features, Phikon-v1
 features/sicap_c224/             # SICAPv2 patch features, H-optimus-0 / ResNet50
