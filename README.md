@@ -6,7 +6,7 @@ Code and analysis scripts for the manuscript:
 
 > **Silent failures in cross-site prostate grading AI: a five-pitfall audit and a reproducible evaluation suite**
 
-This repository contains the six-check audit suite and the scripts used to reproduce the main tables and figures. No patient images, raw whole-slide images, model weights, or derived feature files are redistributed. All cohorts are public; see the manuscript Data availability statement.
+This repository contains the six-check audit suite and the scripts used to reproduce the main tables and figures. No patient images, raw whole-slide images, model weights, or derived feature files are redistributed. Four cohorts are public; the two private cohorts are reported as cohort A and cohort B. See the manuscript Data availability statement.
 
 ## Repository structure
 
@@ -32,7 +32,7 @@ Python 3.10+ is required; the manuscript analyses were run with Python 3.12, PyT
 Set these environment variables before running:
 
 ```
-export PROSTATE_DATA_ROOT=/path/to/public/cohorts
+export PROSTATE_DATA_ROOT=/path/to/cohorts
 export PROSTATE_MODEL_ROOT=/path/to/pretrained/weights
 ```
 
@@ -52,7 +52,7 @@ Expected subdirectories and file naming are documented in `docs/data_layout.md`.
 | `code/make_figures_E.py`, `code/make_figures_visual.py` | Main figures |
 | `code/make_supplement.py` | Supplementary tables and figures |
 
-Scripts assume cached features and the public cohorts; feature extraction is compute-heavy and is not required for the audit suite itself. The suite runs in under two minutes on cached features, excluding feature extraction and probe refitting.
+Scripts assume cached features and the cohorts; feature extraction is compute-heavy and is not required for the audit suite itself. The suite runs in under two minutes on cached features, excluding feature extraction and probe refitting.
 
 ## What is not included
 

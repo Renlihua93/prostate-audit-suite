@@ -1,6 +1,6 @@
 # Data layout
 
-The code expects public cohorts under `PROSTATE_DATA_ROOT` and encoder weights under `PROSTATE_MODEL_ROOT`. Derived features are read from `PROJECT_ROOT/features`; they are not included in this repository.
+The code expects the study cohorts under `PROSTATE_DATA_ROOT` and encoder weights under `PROSTATE_MODEL_ROOT`. Derived features are read from `PROJECT_ROOT/features`; they are not included in this repository.
 
 ## Cohorts
 
