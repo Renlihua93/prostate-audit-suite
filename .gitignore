@@ -1,0 +1,24 @@
+# data and derived artefacts (not redistributed)
+data/
+features/
+models/
+runs/
+*.npz
+*.svs
+*.tif
+*.tiff
+*.ndpi
+*.mrxs
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# local outputs
+figures/
+SUPPLEMENT_v1.md
+*.log
