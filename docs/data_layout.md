@@ -7,10 +7,10 @@ The code expects the study cohorts under `PROSTATE_DATA_ROOT` and encoder weight
 | Cohort | Expected location | Notes |
 |---|---|---|
 | SICAPv2 | `$PROSTATE_DATA_ROOT/sicapv2/SICAPv2.zip` | development anchor; patch labels |
-| PAR | `$PROSTATE_DATA_ROOT/par/` | biopsy WSI; 2–3 reader ISUP labels |
+| cohort A | `$PROSTATE_DATA_ROOT/cohort_A/` | biopsy WSI; 2–3 reader ISUP labels |
 | TCGA-PRAD | `$PROSTATE_DATA_ROOT/tcga_prad/` | prostatectomy WSI; refined grade group |
 | PANDA-PLUS-Bench | `$PROSTATE_DATA_ROOT/panda_plus_bench/` | perturbation stress test |
-| PESO | `$PROSTATE_DATA_ROOT/peso/` | detection regions |
+| cohort B | `$PROSTATE_DATA_ROOT/cohort_B/` | detection regions |
 | Arvaniti TMA | `$PROSTATE_DATA_ROOT/arvaniti_images_extracted/` | TMA cores; pixel GP3/4/5 |
 
 ## Derived features
