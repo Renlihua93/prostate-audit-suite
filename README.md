@@ -1,5 +1,7 @@
 # prostate-audit-suite
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24156682.svg)](https://doi.org/10.5281/zenodo.24156682)
+
 Code and analysis scripts for the manuscript:
 
 > **Silent failures in cross-site prostate grading AI: a five-pitfall audit and a reproducible evaluation suite**
@@ -65,9 +67,10 @@ MIT. See `LICENSE`.
 
 ## Citation
 
-If you use this code, please cite the manuscript. A Zenodo DOI will be added after the first archived release:
+If you use this code, please cite the manuscript and the archived release:
 
 ```
 Renlihua93. prostate-audit-suite (2026). GitHub repository.
 https://github.com/Renlihua93/prostate-audit-suite
+Archived at https://doi.org/10.5281/zenodo.24156682
 ```
